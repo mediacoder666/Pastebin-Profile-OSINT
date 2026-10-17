@@ -36,10 +36,15 @@ The tool can be used for:
 Open CMD in the directory containing the file and execute:
 
 pastebin_osint.py --max-requests 10   //  This is a short test
+
 pastebin_osint.py   //  Full search
+
 pastebin_osint.py --engines google bing --pages 2 --delay 4   //  Google and Bing only
+
 pastebin_osint.py --resume   //  Resume and append results from the previous run
+
 pastebin_osint.py --term "open source" --term "developer"   //  Additional keywords
+
 
 
 ## Output Files
